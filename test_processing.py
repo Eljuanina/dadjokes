@@ -5,8 +5,7 @@
 # University of Zurich
 # Department of Computational Linguistics
 
-# Authors: Elina Stüssi
-
+# Author: Elina Stüssi
 
 # Test Units for dad_jokes Analyzer Engine
 # Module for functional and non functional testing of dad_jokes_processor module
