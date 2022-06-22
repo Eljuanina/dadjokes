@@ -5,8 +5,7 @@
 # University of Zurich
 # Department of Computational Linguistics
 
-# Authors: # Elina Stüssi
-
+# Author: Elina Stüssi
 
 from typing import List, Tuple
 
