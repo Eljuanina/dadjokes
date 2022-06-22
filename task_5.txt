@@ -1,0 +1,41 @@
+# task_5.txt
+
+# University of Zurich
+# Department of Computational Linguistics
+
+# Authors: Hanna Hubarava, Elina Stüssi
+# Matriculation Numbers: 18-646-067 21-722-202
+
+
+a)
+-advantages:
+1. You don't have to test each case manually over and over again when you changed something in your code. In that way you can test all the code even if you rewrote the whole code
+2. You only write as much code as you need to pass all your tests. If all of them pass the code is sufficient.
+3. You know exactly where the bug is and so it is easiert to find it. 
+
+-disadvantages:
+1. You can only check your code for test cases you implemented. It is still possible that there is a case where the code crahses but you did not test that. So it's not 100% sure yet if everything is right
+2. When the requirements for the code change you have to adapt all the test cases. If you don't do that then the tests will not work correctly anymore.
+3. It takes some extra time in the first place (even though it will be worth it later on if the code is longer and has more special cases)
+
+-In addition, describe an example where TDD has affected the way you have implemented a function:
+At first we forgot that the desired output of the filter_profanity function is a tuple. But because of the tests we realised the mistake and could adapt the code.
+We first worked with sys and imported the file with the profanities. But then the tests never worked out. Then we realized that we have to work without sys and open the file
+via it's name. 
+
+b)
+1. Edge Cases like a sentence with a profanity word in it but the word in the sentence is not in the same form (for example arse -> hoarse)
+2. The desired structure of the outcome (that it is a tuple etc)
+3. Check if the function returns not None, what is good because it should return a list
+4. (what we would have liked to test but did not work): The case where the input it not the required data type (integer instead of file) (but the file does still not crash)
+
+c)
+It was not an easy one. It required a lot of time and it was not easy at all. Just to get the idea of where to start took a really long time and we needed several approaches. Because we first have worked with sys and the whole dadjoke file, the tests did not work and we had to do everything anew (but the output would have been correct). Task 2 was easier but still not an easy one. At first we had difficulties to delete the right things in the list. Because we started deleting the things right away, but then the index changed and it did not work. Task 3 was for us the easiest one and we did not have had major problems solving it. But in Task 4 there was the difficulty to delete the whitespaces in front of a "." etc and after some of the "\"". This took quite some time. Writing the tests was also something tricky because we had to think about what we really want to get as output. And we could not find a good example of the case where they test a raised error and so we could not code this. All in all we needed more than 15 hours to solve everything because we really had problems in the first two tasks (and with the writing of the tests).
+All in all, we think the difficulty of this exercise was a lot higher than of all the previous exercises in pcl 1 and it took way longer. Also it was maybe not that clear in the instructions that we should not use the whole file with the jokes as input (just as a little remark).
+
+
+
+
+
+
+
