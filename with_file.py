@@ -5,8 +5,7 @@
 # University of Zurich
 # Department of Computational Linguistics
 
-# Authors: # Hanna Hubarava, Elina Stüssi
-# Matriculation Numbers: ########### 21-722-202
+# Authors: # Elina Stüssi
 
 
 from typing import List, Tuple

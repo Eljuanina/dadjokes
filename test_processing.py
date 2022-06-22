@@ -5,8 +5,7 @@
 # University of Zurich
 # Department of Computational Linguistics
 
-# Authors: Hanna Hubarava, Elina Stüssi
-# Matriculation Numbers: 18-646-067 21-722-202
+# Authors: Elina Stüssi
 
 
 # Test Units for dad_jokes Analyzer Engine
